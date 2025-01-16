@@ -21,6 +21,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Important so we can merge branches
+          fetch-depth: 0
 
       - name: Set version
         id: version
