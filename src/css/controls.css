@@ -24,13 +24,15 @@
 .leaflet-pm-toolbar
   .button-container:last-child
   a.leaflet-buttons-control-button {
-  border-radius: 0 0 2px 2px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
 }
 
 .leaflet-pm-toolbar
   .button-container:first-child
   a.leaflet-buttons-control-button {
-  border-radius: 2px 2px 0 0;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
 }
 
 .leaflet-pm-toolbar
